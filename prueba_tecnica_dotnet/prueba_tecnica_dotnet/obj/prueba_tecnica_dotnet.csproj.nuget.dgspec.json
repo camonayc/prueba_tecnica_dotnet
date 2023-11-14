@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Pruebas tecnicas\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet.csproj": {}
+  },
+  "projects": {
+    "D:\\Pruebas tecnicas\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pruebas tecnicas\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet.csproj",
+        "projectName": "prueba_tecnica_dotnet",
+        "projectPath": "D:\\Pruebas tecnicas\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet.csproj",
+        "packagesPath": "C:\\Users\\camon\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas tecnicas\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\prueba_tecnica_dotnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\camon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

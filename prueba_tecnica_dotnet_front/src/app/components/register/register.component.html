@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="surface-card">
+    <form #registerForm="ngForm" (ngSubmit)="register()">
+      <div class="title">Create Account</div>
+
+      <div class="section">
+        <div class="section-title">User data</div>
+        <label for="userName">UserName</label>
+        <input id="userName" name="userName" type="text" [(ngModel)]="user.userName" class="form-input" required>
+
+        <label for="password1">Password</label>
+        <input id="password1" name="password" type="password" [(ngModel)]="user.password" class="form-input" required>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Personal data</div>
+        <label for="name1">Name</label>
+        <input id="name1" name="name" type="text" [(ngModel)]="personalData.name" class="form-input" required>
+
+        <label for="lastname1">Last Name</label>
+        <input id="lastname1" name="lastname" type="text" [(ngModel)]="personalData.lastName" class="form-input" required>
+
+        <label for="numidentification1">Number Identification</label>
+        <input id="numidentification1" name="numidentification" type="text" [(ngModel)]="personalData.numIdentification" class="form-input" required>
+
+        <label for="email1">Email</label>
+        <input id="email1" name="email" type="text" [(ngModel)]="personalData.email" class="form-input" required>
+
+        <label for="typeidentification1">Type Identification</label>
+        <input id="typeidentification1" name="typeidentification" type="text" [(ngModel)]="personalData.typeIdentification" class="form-input" required>
+      </div>
+      <button type="submit" class="submit-button">Register</button>
+    </form>
+  </div>
+</div>

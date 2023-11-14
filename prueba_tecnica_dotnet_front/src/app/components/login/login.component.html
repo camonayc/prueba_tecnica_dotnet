@@ -1,0 +1,20 @@
+<div class="container h-screen flex justify-center items-center">
+  <div class="surface-card">
+    <form #registerForm="ngForm" (ngSubmit)="login()">
+    <div class="text-center mb-5">
+        <div class="title">Welcome Back</div>
+    </div>
+
+    <div>
+        <label for="userName1" class="form-label">User Name</label>
+        <input id="userName1" name="userName" type="text" [(ngModel)]="user.userName" class="form-input mb-3" required>
+
+        <label for="password1" class="form-label">Password</label>
+        <input id="password1" name="password" type="password" [(ngModel)]="user.password" class="form-input mb-3" required>
+
+        <button type="submit" class="submit-button">Sign In</button>
+    </div>
+  </form>
+  </div>
+</div>
+
